@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "scientific-calculator",
+    "name": "Scientific Calculator",
     "slug": "scientific-calculator",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "useHermes": true,
+      "package": "com.anonymous.scientificcalculator"
     },
     "web": {
       "bundler": "metro",
